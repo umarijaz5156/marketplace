@@ -1,0 +1,224 @@
+@import url('https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
+
+* {
+  font-family: 'Gilroy', sans-serif;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-sec {
+    background-image: url(../../public/images/newui/hero-section.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right -20%;
+    background-size: 600px;
+  }
+
+}
+
+@media screen and (min-width: 1180px) {
+  .hero-sec {
+    background-position: bottom 50% right 0%;
+    background-size: 600px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-sec {
+    background-position: right;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-sec-v2 {
+    background-image: url(../../public/images/newui/hero-section-v2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right -20%;
+    background-size: 600px;
+  }
+
+}
+
+@media screen and (min-width: 1180px) {
+  .hero-sec-v2 {
+    background-position: bottom 50% right 0%;
+    background-size: 600px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-sec-v2 {
+    background-position: right;
+    background-size: contain;
+    background-size: 900px;
+  }
+}
+
+
+@keyframes show-transition {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes show-text {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes press {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.growing-div .swiper-pagination {
+  bottom: 52px !important;
+}
+
+.single-product-page .mySwiper .swiper-slide {
+  opacity: 0.4;
+}
+
+.single-product-page .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.custom-product-slider-btn {
+  width: 2.2rem !important;
+  height: 2.2rem !important;
+  border-radius: 1000px;
+}
+
+@media screen and (min-width: 1024px) {
+  .single-product-page .single-product-page-v2 .swiper-wrapper .swiper-slide img {
+    height: 600px;
+  }
+}
+
+.custom-shadow-btn {
+  box-shadow: 0px 18px 20px rgba(0, 150, 216, 0.1);
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.active-user {
+  background-color: #0096D8;
+}
+
+.active-user div p {
+  color: white !important;
+
+}
+
+/* Become Seller CSS */
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide .seller-testimonial .seller-testimonial-info::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 2px;
+  background-color: #263238;
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial {
+  background: #263238;
+  box-shadow: 0px 30px 60px rgba(119, 118, 156, 0.24);
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial-quotes {
+  background: #0096D8;
+  color: white;
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial-info {
+  border-color: rgba(255, 255, 255, 0.123);
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial-info p {
+  color: white;
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial-footer h1 {
+  color: #0096D8;
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial-footer p {
+  color: white;
+  opacity: 1;
+}
+
+.seller-testimonial-swiper .swiper-wrapper .swiper-slide-active .seller-testimonial .seller-testimonial-info::after {
+  background-color: white;
+}
+
+/* Portfolio Section Css */
+.portfolio-case-1 {
+  /* background-image: url('public/images/port-holder-1.png'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  position: relative;
+}
+
+.portfolio-case-1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0096D8;
+  border-radius: 10px;
+  height: 8px;
+}
+
+.image-wrap {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.image-wrap img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: all 2.5s ease-in-out;
+}
+
+.image-wrap:hover img {
+  object-position: bottom center;
+}

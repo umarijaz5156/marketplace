@@ -1,0 +1,1 @@
+<x-AdminPanel.card.card1 :sellers="$sellers" title="Top Sellers" />

@@ -1,0 +1,66 @@
+{
+  "public/images/Decore.png": {
+    "file": "assets/Decore.e51f5648.png",
+    "src": "public/images/Decore.png"
+  },
+  "public/images/newui/hero-section.png": {
+    "file": "assets/hero-section.cc575df1.png",
+    "src": "public/images/newui/hero-section.png"
+  },
+  "public/images/newui/hero-section-v2.png": {
+    "file": "assets/hero-section-v2.b47b8d9a.png",
+    "src": "public/images/newui/hero-section-v2.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.ad7e7e75.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app.b3cd1b18.css"
+    ]
+  },
+  "resources/js/homepage-v2.js": {
+    "file": "assets/homepage-v2.7a6ee8a0.js",
+    "src": "resources/js/homepage-v2.js",
+    "isEntry": true
+  },
+  "resources/js/main.js": {
+    "file": "assets/main.6cc28ee7.js",
+    "src": "resources/js/main.js",
+    "isEntry": true
+  },
+  "resources/css/stripe.css": {
+    "file": "assets/stripe.3f5a50b3.css",
+    "src": "resources/css/stripe.css",
+    "isEntry": true
+  },
+  "resources/css/custom2.css": {
+    "file": "assets/custom2.5bd5222d.css",
+    "src": "resources/css/custom2.css",
+    "isEntry": true
+  },
+  "resources/css/custom-homeV2.css": {
+    "file": "assets/custom-homeV2.735190b4.css",
+    "src": "resources/css/custom-homeV2.css",
+    "isEntry": true
+  },
+  "resources/css/custom.css": {
+    "file": "assets/custom.04a41d1a.css",
+    "src": "resources/css/custom.css",
+    "isEntry": true
+  },
+  "resources/css/select2.css": {
+    "file": "assets/select2.f4d0bb3a.css",
+    "src": "resources/css/select2.css",
+    "isEntry": true
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.b3cd1b18.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.73c06a85.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  }
+}
